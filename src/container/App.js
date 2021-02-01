@@ -9,28 +9,28 @@ const calculator = () => {
 			</section>
 			<section className='buttons'>
 				<div className='row'>
-					<div>1</div>
-					<div>2</div>
-					<div>3</div>
-					<div>+</div>
+					<button>1</button>
+					<button>2</button>
+					<button>3</button>
+					<button>+</button>
 				</div>
 				<div className='row'>
-					<div>4</div>
-					<div>5</div>
-					<div>6</div>
-					<div>-</div>
+					<button>4</button>
+					<button>5</button>
+					<button>6</button>
+					<button>-</button>
 				</div>
 				<div className='row'>
-					<div>7</div>
-					<div>8</div>
-					<div>9</div>
-					<div>x</div>
+					<button>7</button>
+					<button>8</button>
+					<button>9</button>
+					<button>x</button>
 				</div>
 				<div className='row'>
-					<div>C</div>
-					<div>0</div>
-					<div> =</div>
-					<div>÷</div>
+					<button>C</button>
+					<button>0</button>
+					<button> =</button>
+					<button>÷</button>
 				</div>
 			</section>
 		</main>

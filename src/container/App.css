@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #202020;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.calculator-wrapper {
+	width: 300px;
+	height: 460px;
+	background-color: #292929;
+	border-radius: 3px;
+}
+.result-wrapper {
+	width: 90%;
+	height: 80px;
+	background-color: #04b97d;
+	display: flex;
+	justify-content: start;
+	font-weight: bold;
+  margin-top: 0.2rem;
+	align-items: center;
+	transform: translate(5.5%, 5%);
+	border-radius: 5px;
+	background: #04b97d;
+	box-shadow: inset 5px 5px 16px #02573b, inset -5px -5px 16px #06ffbf;
+}
+.result {
+	font-size: 30px;
+	color: rgb(42, 42, 42);
+	margin-left: 10px;
+}
+.buttons {
+  margin-top: 2.6rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.row button {
+	padding: 1.7rem;
+	font-size: 40px;
+	color: #fff;
+  margin-top: 50px;
+  margin: 0.3rem;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	display: flex;
+  outline: none;
+  border: none;
+	align-items: center;
+	justify-content: center;
+	border-radius: 8px;
+	background: #292929;
+	transition: all 1s ease;
+	box-shadow: 5px 5px 9px #202020, -5px -5px 9px #323232;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.row button:focus {
+	box-shadow: inset 5px 5px 9px #202020, inset -5px -5px 9px #323232 !important;
 }
