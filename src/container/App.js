@@ -9,28 +9,28 @@ const calculator = () => {
 			</section>
 			<section className='buttons'>
 				<div className='row'>
-					<div onClick='enterNumber(this)'>1</div>
-					<div onClick='enterNumber(this)'>2</div>
-					<div onClick='enterNumber(this)'>3</div>
-					<div onClick='operation(this)'>+</div>
+					<div>1</div>
+					<div>2</div>
+					<div>3</div>
+					<div>+</div>
 				</div>
 				<div className='row'>
-					<div onClick='enterNumber(this)'>4</div>
-					<div onClick='enterNumber(this)'>5</div>
-					<div onClick='enterNumber(this)'>6</div>
-					<div onClick='operation(this)'>-</div>
+					<div>4</div>
+					<div>5</div>
+					<div>6</div>
+					<div>-</div>
 				</div>
 				<div className='row'>
-					<div onClick='enterNumber(this)'>7</div>
-					<div onClick='enterNumber(this)'>8</div>
-					<div onClick='enterNumber(this)'>9</div>
-					<div onClick='operation(this)'>x</div>
+					<div>7</div>
+					<div>8</div>
+					<div>9</div>
+					<div>x</div>
 				</div>
 				<div className='row'>
-					<div onClick='clearOperation(this)'>C</div>
-					<div onClick='enterNumber(this)'>0</div>
-					<div onClick='equal(this)'>=</div>
-					<div onClick='operation(this)'>÷</div>
+					<div>C</div>
+					<div>0</div>
+					<div> =</div>
+					<div>÷</div>
 				</div>
 			</section>
 		</main>
