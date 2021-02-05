@@ -1,8 +1,9 @@
 import React from 'react';
-const result = () => {
+const result = props => {
+	const { result } = props;
 	return (
 		<section className='result-wrapper'>
-			<p className='result'></p>
+			<p className='result'>{result}</p>
 		</section>
 	);
 };
