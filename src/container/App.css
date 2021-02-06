@@ -10,6 +10,7 @@ body {
 	height: 460px;
 	background-color: #292929;
 	border-radius: 3px;
+	padding-top: 1rem;
 }
 .result-wrapper {
 	width: 90%;
@@ -18,13 +19,13 @@ body {
 	display: flex;
 	justify-content: start;
 	font-weight: bold;
-  margin-top: 0.2rem;
+  margin: 0 auto;
 	align-items: center;
-	transform: translate(5.5%, 5%);
 	border-radius: 5px;
 	background: #04b97d;
 	box-shadow: inset 5px 5px 16px #02573b, inset -5px -5px 16px #06ffbf;
 }
+
 .result {
 	font-size: 30px;
 	color: rgb(42, 42, 42);
