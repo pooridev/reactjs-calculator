@@ -29,6 +29,7 @@ const Calculator = () => {
 				reset();
 				break;
 			default:
+				
 				setResult(result + button);
 				break;
 		}
