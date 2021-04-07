@@ -1,17 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="theme-color" content="#202020" />
-		<meta
-			name="description"
-			content="Web site created using create-react-app"
-		/>
-		<title>-- calculator --</title>
-	</head>
-	<body>
-		<noscript>You need to enable JavaScript to run this app.</noscript>
-		<div id="root"></div>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#202020" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <title>-- calculator --</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      noscript {
+        font-family: 'Roboto', 'Courier New', Courier, monospace;
+        background-color: #292929;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        font-size: 1.2rem;
+        color: #fff;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+      }
+      @media (min-width: 991px) {
+        noscript {
+          font-size: 3rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
 </html>
